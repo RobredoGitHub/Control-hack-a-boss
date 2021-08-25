@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/styles/style.css" />
+        <title>Ejercicio 3</title>
+    </head>
+    <body>
+        <form action="" method="get">
+            <fieldset>
+                <legend>Datos Personales</legend>
+                <ul>
+                    <li>
+                        <label for="Nombre">
+                            Nombre<input
+                                type="text"
+                                id="Nombre"
+                                required
+                                autofocus
+                            />
+                        </label>
+                    </li>
+                    <li>
+                        <label for="Correo">
+                            Correo<input type="email" id="Correo" required />
+                        </label>
+                    </li>
+            </fieldset>
+            <fieldset>
+                    <li>
+                        <label for="URL">
+                            URL<input
+                                type="url"
+                                placeholder="Escribe la URL de tu página web personal"
+                                id="URL"
+                            />
+                        </label>
+                    </li>
+            </fieldset>
+            <fieldset>
+                    <li>
+                        <label for="Fecha">
+                            Fecha <input type="date" id="Fecha" />
+                        </label>
+                    </li>
+                    <li>
+                        <label for="Tiempo">
+                            Tiempo<input type="time" id="Tiempo" />
+                        </label>
+                    </li>
+                    <li>
+                        <label for="Fecha/hora">
+                            Fecha y hora<input
+                                type="datetime"
+                                id="Fecha/hora"
+                            />
+                        </label>
+                    </li>
+                    <li>
+                        <label for="Mes">
+                            Mes<input type="month" id="Mes" />
+                        </label>
+                    </li>
+                    <li>
+                        <label for="Semana">
+                            Semana<input type="week" id="Semana" />
+                        </label>
+                    </li>
+            </fieldset>
+            <fieldset>
+                    <li>
+                        <label for="Numero">
+                            Número<input type="number" id="Numero" />
+                        </label>
+                    </li>
+                    <li>
+                        <label for="Telefono">
+                            Teléfono<input type="tel" id="Telefono" />
+                        </label>
+                    </li>
+            </fieldset>
+            <fieldset>
+                    <li>
+                        <label for="Buscar">
+                            Término de búsqueda<input type="search" disabled />
+                        </label>
+                    </li>
+            </fieldset>
+            <fieldset>
+                    <li>
+                        <label for="Color">
+                            Color favorito<input type="color" id="Color" />
+                        </label>
+                    </li>
+            </fieldset>
+                </ul>
+            <div>
+                <button>Enviar</button>
+            </div>
+        </form>
+    </body>
+</html>
